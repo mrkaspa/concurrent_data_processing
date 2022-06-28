@@ -13,7 +13,6 @@ defmodule Scraper do
     online = Enum.random([false, true, true])
 
     Logger.info("Online? validation #{url} => #{online}")
-    # online
-    true
+    online
   end
 end
